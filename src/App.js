@@ -14,10 +14,14 @@ class App extends Component{
     tasks: tasks
   }
 
-  render () {
+  addTask = () => {
+    console.log('adding a new task')
+  }
+
+  render () {   
     return (
       <div>
-          <TaskForm/>
+          <TaskForm addTask={this.addTask}/>
           <Tasks tasks={this.state.tasks }/>
       </div>
     )
