@@ -14,8 +14,24 @@ class App extends Component{
     tasks: tasks
   }
 
-  addTask = () => {
-    console.log('adding a new task')
+  addTask = (title, description) => {
+    const newTask = {
+      title: title,
+      description: description,
+      id: this.state.tasks.length
+    }
+    
+    this.setState ({
+      tasks: [...this.state.tasks, newTask]
+    })
+  }
+
+  deleteTask = (id) => {
+    this.state.tasks.filter(task => task.id !== id)
+  }
+
+  checkDone = () => { 
+
   }
 
   render () {   

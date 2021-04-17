@@ -2,21 +2,21 @@
      {
         "id":0,
         "title": "task one",
-         "descripcion":"Viviana",
+         "description":"Viviana",
          "done": false
      },
 
      {
         "id":1,
         "title": "task two",
-         "descripcion":"Viviana",
+         "description":"Viviana",
          "done": false
      },
 
      {
         "id":2,
         "title": "task three",
-         "descripcion":"Viviana",
+         "description":"Viviana",
          "done": true
      }
 

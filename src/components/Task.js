@@ -17,7 +17,7 @@ class Task extends Component{
         return (
         <p style={this.styleCompleted()}> 
             {task.title} -
-            {task.descripcion} - 
+            {task.description} - 
             {task.done} - 
             {task.id}
             <input type="checkbox"/>
